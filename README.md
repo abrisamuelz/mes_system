@@ -1,11 +1,6 @@
-Sure! Here's a concise and engaging `README.md` for your GitHub project:
+# 🎛️ Simple MES Module
 
----
-
-```markdown
-# 🎛️ Simplified MES Module
-
-A simplified Manufacturing Execution System (MES) module built with **Laravel 10**, providing essential functionalities for manufacturing processes.
+A simplified Manufacturing Execution System (MES) module built with **Laravel 10**, providing essential functionalities for manufacturing processes. This project was created to follow 3 day development restriction.
 
 ## 🚀 Features
 
@@ -22,87 +17,44 @@ A simplified Manufacturing Execution System (MES) module built with **Laravel 10
 
 ## ⚙️ Installation
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/mes_system.git
-   ```
-
-2. **Navigate to the project directory:**
+1. **Navigate to the project directory:**
 
    ```bash
    cd mes_system
-   ```
 
-3. **Install dependencies:**
+Install dependencies:
 
-   ```bash
-   composer install
-   npm install
-   ```
+    composer install
+    npm install
 
-4. **Copy `.env` file and generate app key:**
+Copy .env file and generate app key:
 
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
 
-5. **Configure database in `.env`:**
+    cp .env.example .env
+    php artisan key:generate
 
-   ```env
-   DB_DATABASE=mes_system
-   DB_USERNAME=root
-   DB_PASSWORD=
-   ```
+Configure database in .env:
 
-6. **Run migrations:**
+    DB_DATABASE=mes_system
+    DB_USERNAME=root
+    DB_PASSWORD=
 
-   ```bash
-   php artisan migrate
-   ```
+Run migrations:
 
-7. **Build assets:**
+    php artisan migrate
 
-   ```bash
-   npm run dev
-   ```
+Build assets:
 
-## 🎮 Usage
+    npm run dev
 
-- **Access the app** via Laragon at `http://mes_system.test`
-- **Register/Login** to explore features
-- **Dashboard** displays real-time metrics with charts
-- **Manage Production Orders**: Create, read, update, delete
-- **Handle Inspections**: Schedule and record quality checks
+🎮 Usage
 
-## 📸 Screenshots
+- Access the app via Laragon at http://mes_system.test
+- Register/Login to explore features
+- Dashboard displays real-time metrics with charts
+- Manage Production Orders: Create, read, update, delete
+- Handle Inspections: Schedule and record quality checks
 
-![Dashboard](screenshots/dashboard.png)
-*Dashboard showcasing key metrics*
+📄 License
 
-![Production Orders](screenshots/production_orders.png)
-*Efficiently manage your production orders*
-
-![Inspections](screenshots/inspections.png)
-*Quality control at your fingertips*
-
-*(Add actual screenshots in the `screenshots/` directory)*
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-Enjoy managing your manufacturing processes! If you have any questions, feel free to reach out.
-
-```
-
----
-
-Feel free to customize the placeholders (like repository URL and email address) to match your project specifics.
+This project is licensed under the MIT License.
